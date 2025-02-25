@@ -86,18 +86,27 @@ h2 {
 }
 
 @media only screen and (max-width: 717px) {
+    h2 {
+        font-size: 2em;
+    }
     .game {
         width: 400px;
         height: 550px;
-        gap: 10px;
+        gap: 5px;
+        transform-style: preserve-3d;
+        perspective: 400px;
     }
     .item {
+        margin: auto;
         width: 80px;
         height: 80px;
-        font-size: 2em;
     }
     .container{
-        padding: 30px 40px;
-        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 30px;
+        gap: 10px;
     }
 }
