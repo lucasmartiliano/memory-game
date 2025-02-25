@@ -98,8 +98,8 @@ h2 {
     }
     .item {
         margin: auto;
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
     }
     .container{
         display: flex;
