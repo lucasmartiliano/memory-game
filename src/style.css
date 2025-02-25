@@ -90,16 +90,16 @@ h2 {
         font-size: 2em;
     }
     .game {
-        width: 400px;
-        height: 550px;
-        gap: 5px;
-        transform-style: preserve-3d;
-        perspective: 400px;
+        width: 370px;
+        height: 450px;
+        gap: 10px;
     }
     .item {
         margin: auto;
-        width: 90px;
-        height: 90px;
+        width: 80px;
+        height: 80px;
+        
+        
     }
     .container{
         display: flex;
