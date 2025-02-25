@@ -84,3 +84,20 @@ h2 {
 .boxMatch::after {
     transform: rotateY(180deg);
 }
+
+@media only screen and (max-width: 717px) {
+    .game {
+        width: 400px;
+        height: 550px;
+        gap: 10px;
+    }
+    .item {
+        width: 80px;
+        height: 80px;
+        font-size: 2em;
+    }
+    .container{
+        padding: 30px 40px;
+        gap: 20px;
+    }
+}
